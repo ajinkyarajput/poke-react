@@ -1,0 +1,44 @@
+{
+  "name": "react-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "Ajinkya Rajput",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-preset-es2015": "^6.24.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "get-env": "^0.5.10",
+    "immutable": "^4.0.0-rc.12",
+    "json-loader": "^0.5.7",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "reducers": "^3.0.0-alpha",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "source-map-loader": "^0.2.4",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
